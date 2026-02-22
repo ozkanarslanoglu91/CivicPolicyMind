@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+@layer base {
+  body { @apply bg-gray-900 text-white transition-colors duration-200; }
+}
+
+@layer components {
+  .card { @apply bg-gray-800 rounded-lg border border-gray-700 p-6 hover:border-gray-600 transition; }
+  .btn-primary { @apply bg-green-600 hover:bg-green-700 px-4 py-2 rounded-lg font-semibold transition; }
+}
